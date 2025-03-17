@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Demo.uss?fileID=7433441132597879392&amp;guid=46181ed0526c481458feaae71a0c519a&amp;type=3#Demo" />
+    <ui:VisualElement class="timer" style="flex-grow: initial; align-items: auto; justify-content: flex-start; background-color: rgb(0, 0, 0); align-self: flex-start; flex-direction: column;">
+        <ui:Label tabindex="-1" text="Time Remaining: " parse-escape-sequences="true" display-tooltip-when-elided="true" name="TimeRemaining" style="background-color: rgb(0, 0, 0); color: rgb(156, 131, 131); -unity-font: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=6083d79d582158346a1a71909e15031e&amp;type=3#NotInter-Regular&quot;); -unity-font-style: bold; font-size: 20px; -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(255, 255, 255);" />
+    </ui:VisualElement>
+</ui:UXML>
