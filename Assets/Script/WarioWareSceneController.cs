@@ -10,7 +10,6 @@ public class WarioWareSceneController : MonoBehaviour
 
     public List<string> ScenePaths = new List<string>();
 
-
     [SerializeField]
     private int _ActiveSceneIndex = -1;
 
@@ -21,7 +20,7 @@ public class WarioWareSceneController : MonoBehaviour
 
     private void SceneManager_sceneLoaded(Scene scene, LoadSceneMode LoadMode)
     {
-        Debug.Log($"Scene Loaded {scene}");
+        Debug.Log($"Scene Loaded {scene.name}");
         TransitionManager TransitionObject = GameObject.FindFirstObjectByType<TransitionManager>();
         if(TransitionObject != null)
         {

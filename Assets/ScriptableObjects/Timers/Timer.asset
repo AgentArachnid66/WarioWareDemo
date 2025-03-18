@@ -15,7 +15,7 @@ MonoBehaviour:
   OnConditionMet:
     m_PersistentCalls:
       m_Calls: []
-  DefaultTime: 10
+  DefaultTime: 20
   PostTimeUpdated:
     m_PersistentCalls:
       m_Calls: []

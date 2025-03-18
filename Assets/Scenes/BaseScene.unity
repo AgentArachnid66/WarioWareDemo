@@ -122,6 +122,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &615834589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 615834591}
+  - component: {fileID: 615834590}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &615834590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615834589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b438c3a447ae3ef4dbba91c6b4e53a6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  List: 
+  array: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  GraphNodes:
+  - edges:
+    - NodeID: 1
+      EdgeWeight: 0
+    - NodeID: 3
+      EdgeWeight: 0
+    - NodeID: 4
+      EdgeWeight: 0
+    Id: 0
+  - edges:
+    - NodeID: 0
+      EdgeWeight: 0
+    - NodeID: 2
+      EdgeWeight: 0
+    Id: 0
+  - edges:
+    - NodeID: 1
+      EdgeWeight: 0
+    Id: 0
+  - edges: []
+    Id: 0
+  - edges: []
+    Id: 0
+--- !u!4 &615834591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615834589}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 265.48746, y: 113.78839, z: -2.435418}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1326984221
 GameObject:
   m_ObjectHideFlags: 0
@@ -181,6 +250,7 @@ GameObject:
   - component: {fileID: 1779635780}
   - component: {fileID: 1779635779}
   - component: {fileID: 1779635782}
+  - component: {fileID: 1779635783}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -306,9 +376,22 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &1779635783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779635778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a25cf6190533864c838a410441d787d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1779635781}
   - {fileID: 1326984223}
+  - {fileID: 615834591}
