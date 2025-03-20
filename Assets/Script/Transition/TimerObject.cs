@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.Events;
 
 
-[CreateAssetMenu(fileName = "Timer", menuName = "ScriptableObjects/Transition Conditions/Timer", order = 1)]
 public class TimerObject : TransitionCondition
 {
     public int DefaultTime = 10;

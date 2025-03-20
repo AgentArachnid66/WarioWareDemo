@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[System.Serializable]
-public abstract class TransitionCondition : ScriptableObject
+
+public abstract class TransitionCondition : MonoBehaviour
 {
     public abstract IEnumerator ExecuteCondition();
 
