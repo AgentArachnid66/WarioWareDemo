@@ -21,9 +21,9 @@ public class TransitionManager : MonoBehaviour
 
     private void OnDisable()
     {
-        for( int i = 0; i < transitionConditions.Count; i++)
+        foreach (TransitionCondition condition in transitionConditions)
         {
-            transitionConditions[i].OnConditionMet.RemoveListener(OnConditionMet);
+            condition.OnConditionMet.RemoveListener(OnConditionMet);
         }
     }
 
