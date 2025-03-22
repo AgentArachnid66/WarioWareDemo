@@ -122,7 +122,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &615834589
+--- !u!1 &519338000
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,68 +130,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 615834591}
-  - component: {fileID: 615834590}
+  - component: {fileID: 519338001}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: '[ Cameras ]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &615834590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 615834589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b438c3a447ae3ef4dbba91c6b4e53a6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  List: 
-  array: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  GraphNodes:
-  - edges:
-    - NodeID: 1
-      EdgeWeight: 0
-    - NodeID: 3
-      EdgeWeight: 0
-    - NodeID: 4
-      EdgeWeight: 0
-    Id: 0
-  - edges:
-    - NodeID: 0
-      EdgeWeight: 0
-    - NodeID: 2
-      EdgeWeight: 0
-    Id: 0
-  - edges:
-    - NodeID: 1
-      EdgeWeight: 0
-    Id: 0
-  - edges: []
-    Id: 0
-  - edges: []
-    Id: 0
---- !u!4 &615834591
+--- !u!4 &519338001
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 615834589}
+  m_GameObject: {fileID: 519338000}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 265.48746, y: 113.78839, z: -2.435418}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1779635781}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1326984221
+--- !u!1 &1516502508
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -199,37 +162,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1326984223}
-  - component: {fileID: 1326984222}
+  - component: {fileID: 1516502510}
+  - component: {fileID: 1516502509}
   m_Layer: 0
-  m_Name: SceneController
+  m_Name: '[ Microgame Manager ]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1326984222
+--- !u!114 &1516502509
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326984221}
+  m_GameObject: {fileID: 1516502508}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72853b79fcf38c4499ae2d73e74b69d0, type: 3}
+  m_Script: {fileID: 11500000, guid: 062b56143ff46ff4eabfb50c2d956e32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScenePaths:
-  - Scenes/SampleScene
-  _ActiveSceneIndex: -1
---- !u!4 &1326984223
+  _gameOverScene: Scenes/Game Over
+  _testScene: Scenes/Microgames/Microgame 1
+  sceneObject: {fileID: 102900000, guid: 12a83bd3b6fa90242b7055caa0a35862, type: 3}
+--- !u!4 &1516502510
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326984221}
+  m_GameObject: {fileID: 1516502508}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -325,12 +288,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779635778}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 519338001}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1779635782
 MonoBehaviour:
@@ -392,6 +355,5 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1779635781}
-  - {fileID: 1326984223}
-  - {fileID: 615834591}
+  - {fileID: 1516502510}
+  - {fileID: 519338001}

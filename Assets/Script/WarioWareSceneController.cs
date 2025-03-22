@@ -7,7 +7,6 @@ using Random = UnityEngine.Random;
 
 public class WarioWareSceneController : MonoBehaviour
 {
-
     public List<string> ScenePaths = new List<string>();
 
     [SerializeField]
@@ -71,3 +70,32 @@ public class WarioWareSceneController : MonoBehaviour
         LoadWarioSceneAtIndex(RandomIndex);
     }
 }
+
+/*
+{
+    action success
+    action failure
+    
+    currentscene
+    
+    
+    awake()
+    {
+        success += OnSuccess()
+        failure += OnFailure()
+    }
+    
+    
+    OnSuccess()
+    {
+        // close current scene
+        // load next scene
+    }
+    
+    OnSuccess()
+    {
+        // close current scene
+        // load game over scene.
+    }
+}
+*/
