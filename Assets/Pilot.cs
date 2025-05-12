@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 public class Pilot : MonoBehaviour
@@ -117,5 +118,6 @@ public class Pilot : MonoBehaviour
 
         Stabilisation = 0;
         UnregisterCallbacks();
+
     }
 }

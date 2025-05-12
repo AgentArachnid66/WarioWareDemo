@@ -180,12 +180,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1516502508}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 062b56143ff46ff4eabfb50c2d956e32, type: 3}
+  m_Script: {fileID: 11500000, guid: b39a535402c93bd48a30deaf98c2d832, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _gameOverScene: Scenes/Game Over
-  _testScene: Scenes/Microgames/Microgame 1
-  sceneObject: {fileID: 102900000, guid: 12a83bd3b6fa90242b7055caa0a35862, type: 3}
+  ScenePaths:
+  - Scenes/Microgames/Pilot
+  SceneAccessCount: 00000000
+  _ActiveSceneIndex: -1
 --- !u!4 &1516502510
 Transform:
   m_ObjectHideFlags: 0
